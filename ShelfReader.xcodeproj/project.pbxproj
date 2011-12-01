@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A9D97B714870A9B00BBF8D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9D97B614870A9B00BBF8D8 /* UIKit.framework */; };
+		5A9D97B914870A9B00BBF8D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9D97B814870A9B00BBF8D8 /* Foundation.framework */; };
+		5A9D97BB14870A9B00BBF8D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9D97BA14870A9B00BBF8D8 /* CoreGraphics.framework */; };
+		5A9D97C114870A9B00BBF8D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A9D97BF14870A9B00BBF8D8 /* InfoPlist.strings */; };
+		5A9D97C314870A9B00BBF8D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D97C214870A9B00BBF8D8 /* main.m */; };
+		5A9D97C714870A9B00BBF8D8 /* ShelfReaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D97C614870A9B00BBF8D8 /* ShelfReaderAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A9D97B214870A9B00BBF8D8 /* ShelfReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShelfReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9D97B614870A9B00BBF8D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A9D97B814870A9B00BBF8D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A9D97BA14870A9B00BBF8D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A9D97BE14870A9B00BBF8D8 /* ShelfReader-Info.plist */ = {isa = PBXFileReference; path = "ShelfReader-Info.plist"; sourceTree = "<group>"; };
+		5A9D97C014870A9B00BBF8D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A9D97C214870A9B00BBF8D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A9D97C414870A9B00BBF8D8 /* ShelfReader-Prefix.pch */ = {isa = PBXFileReference; path = "ShelfReader-Prefix.pch"; sourceTree = "<group>"; };
+		5A9D97C514870A9B00BBF8D8 /* ShelfReaderAppDelegate.h */ = {isa = PBXFileReference; path = ShelfReaderAppDelegate.h; sourceTree = "<group>"; };
+		5A9D97C614870A9B00BBF8D8 /* ShelfReaderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShelfReaderAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A9D97AF14870A9B00BBF8D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9D97B714870A9B00BBF8D8 /* UIKit.framework in Frameworks */,
+				5A9D97B914870A9B00BBF8D8 /* Foundation.framework in Frameworks */,
+				5A9D97BB14870A9B00BBF8D8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A9D97A714870A9B00BBF8D8 = {
+			isa = PBXGroup;
+			children = (
+				5A9D97BC14870A9B00BBF8D8 /* ShelfReader */,
+				5A9D97B514870A9B00BBF8D8 /* Frameworks */,
+				5A9D97B314870A9B00BBF8D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A9D97B314870A9B00BBF8D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A9D97B214870A9B00BBF8D8 /* ShelfReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A9D97B514870A9B00BBF8D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A9D97B614870A9B00BBF8D8 /* UIKit.framework */,
+				5A9D97B814870A9B00BBF8D8 /* Foundation.framework */,
+				5A9D97BA14870A9B00BBF8D8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A9D97BC14870A9B00BBF8D8 /* ShelfReader */ = {
+			isa = PBXGroup;
+			children = (
+				5A9D97C514870A9B00BBF8D8 /* ShelfReaderAppDelegate.h */,
+				5A9D97C614870A9B00BBF8D8 /* ShelfReaderAppDelegate.m */,
+				5A9D97BD14870A9B00BBF8D8 /* Supporting Files */,
+			);
+			path = ShelfReader;
+			sourceTree = "<group>";
+		};
+		5A9D97BD14870A9B00BBF8D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A9D97BE14870A9B00BBF8D8 /* ShelfReader-Info.plist */,
+				5A9D97BF14870A9B00BBF8D8 /* InfoPlist.strings */,
+				5A9D97C214870A9B00BBF8D8 /* main.m */,
+				5A9D97C414870A9B00BBF8D8 /* ShelfReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A9D97B114870A9B00BBF8D8 /* ShelfReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9D97CA14870A9B00BBF8D8 /* Build configuration list for PBXNativeTarget "ShelfReader" */;
+			buildPhases = (
+				5A9D97AE14870A9B00BBF8D8 /* Sources */,
+				5A9D97AF14870A9B00BBF8D8 /* Frameworks */,
+				5A9D97B014870A9B00BBF8D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShelfReader;
+			productName = ShelfReader;
+			productReference = 5A9D97B214870A9B00BBF8D8 /* ShelfReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A9D97A914870A9B00BBF8D8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5A9D97AC14870A9B00BBF8D8 /* Build configuration list for PBXProject "ShelfReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A9D97A714870A9B00BBF8D8;
+			productRefGroup = 5A9D97B314870A9B00BBF8D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A9D97B114870A9B00BBF8D8 /* ShelfReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A9D97B014870A9B00BBF8D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9D97C114870A9B00BBF8D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A9D97AE14870A9B00BBF8D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9D97C314870A9B00BBF8D8 /* main.m in Sources */,
+				5A9D97C714870A9B00BBF8D8 /* ShelfReaderAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A9D97BF14870A9B00BBF8D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9D97C014870A9B00BBF8D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A9D97C814870A9B00BBF8D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A9D97C914870A9B00BBF8D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A9D97CB14870A9B00BBF8D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShelfReader/ShelfReader-Prefix.pch";
+				INFOPLIST_FILE = "ShelfReader/ShelfReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A9D97CC14870A9B00BBF8D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShelfReader/ShelfReader-Prefix.pch";
+				INFOPLIST_FILE = "ShelfReader/ShelfReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A9D97AC14870A9B00BBF8D8 /* Build configuration list for PBXProject "ShelfReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9D97C814870A9B00BBF8D8 /* Debug */,
+				5A9D97C914870A9B00BBF8D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9D97CA14870A9B00BBF8D8 /* Build configuration list for PBXNativeTarget "ShelfReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9D97CB14870A9B00BBF8D8 /* Debug */,
+				5A9D97CC14870A9B00BBF8D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A9D97A914870A9B00BBF8D8 /* Project object */;
+}
