@@ -13,6 +13,11 @@
 		5A9D97C114870A9B00BBF8D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A9D97BF14870A9B00BBF8D8 /* InfoPlist.strings */; };
 		5A9D97C314870A9B00BBF8D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D97C214870A9B00BBF8D8 /* main.m */; };
 		5A9D97C714870A9B00BBF8D8 /* ShelfReaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D97C614870A9B00BBF8D8 /* ShelfReaderAppDelegate.m */; };
+		5A9D97CF14870B1400BBF8D8 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9D97CE14870B1400BBF8D8 /* 1.png */; };
+		5A9D97D114870B3100BBF8D8 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9D97D014870B3100BBF8D8 /* 2.png */; };
+		5A9D97DA14870E3A00BBF8D8 /* PopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D97D914870E3A00BBF8D8 /* PopoverController.m */; };
+		5A9D97E114870EC400BBF8D8 /* ReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D97DF14870EC400BBF8D8 /* ReadViewController.m */; };
+		5A9D97E4148716C100BBF8D8 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9D97E3148716C100BBF8D8 /* 3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,19 @@
 		5A9D97B614870A9B00BBF8D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5A9D97B814870A9B00BBF8D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A9D97BA14870A9B00BBF8D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5A9D97BE14870A9B00BBF8D8 /* ShelfReader-Info.plist */ = {isa = PBXFileReference; path = "ShelfReader-Info.plist"; sourceTree = "<group>"; };
+		5A9D97BE14870A9B00BBF8D8 /* ShelfReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShelfReader-Info.plist"; sourceTree = "<group>"; };
 		5A9D97C014870A9B00BBF8D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A9D97C214870A9B00BBF8D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5A9D97C414870A9B00BBF8D8 /* ShelfReader-Prefix.pch */ = {isa = PBXFileReference; path = "ShelfReader-Prefix.pch"; sourceTree = "<group>"; };
-		5A9D97C514870A9B00BBF8D8 /* ShelfReaderAppDelegate.h */ = {isa = PBXFileReference; path = ShelfReaderAppDelegate.h; sourceTree = "<group>"; };
+		5A9D97C414870A9B00BBF8D8 /* ShelfReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShelfReader-Prefix.pch"; sourceTree = "<group>"; };
+		5A9D97C514870A9B00BBF8D8 /* ShelfReaderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShelfReaderAppDelegate.h; sourceTree = "<group>"; };
 		5A9D97C614870A9B00BBF8D8 /* ShelfReaderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShelfReaderAppDelegate.m; sourceTree = "<group>"; };
+		5A9D97CE14870B1400BBF8D8 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		5A9D97D014870B3100BBF8D8 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		5A9D97D814870E3A00BBF8D8 /* PopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverController.h; sourceTree = "<group>"; };
+		5A9D97D914870E3A00BBF8D8 /* PopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverController.m; sourceTree = "<group>"; };
+		5A9D97DE14870EC400BBF8D8 /* ReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadViewController.h; sourceTree = "<group>"; };
+		5A9D97DF14870EC400BBF8D8 /* ReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadViewController.m; sourceTree = "<group>"; };
+		5A9D97E3148716C100BBF8D8 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +57,7 @@
 		5A9D97A714870A9B00BBF8D8 = {
 			isa = PBXGroup;
 			children = (
+				5A9D97CD14870AFD00BBF8D8 /* img */,
 				5A9D97BC14870A9B00BBF8D8 /* ShelfReader */,
 				5A9D97B514870A9B00BBF8D8 /* Frameworks */,
 				5A9D97B314870A9B00BBF8D8 /* Products */,
@@ -72,6 +85,10 @@
 		5A9D97BC14870A9B00BBF8D8 /* ShelfReader */ = {
 			isa = PBXGroup;
 			children = (
+				5A9D97D814870E3A00BBF8D8 /* PopoverController.h */,
+				5A9D97D914870E3A00BBF8D8 /* PopoverController.m */,
+				5A9D97DE14870EC400BBF8D8 /* ReadViewController.h */,
+				5A9D97DF14870EC400BBF8D8 /* ReadViewController.m */,
 				5A9D97C514870A9B00BBF8D8 /* ShelfReaderAppDelegate.h */,
 				5A9D97C614870A9B00BBF8D8 /* ShelfReaderAppDelegate.m */,
 				5A9D97BD14870A9B00BBF8D8 /* Supporting Files */,
@@ -88,6 +105,16 @@
 				5A9D97C414870A9B00BBF8D8 /* ShelfReader-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A9D97CD14870AFD00BBF8D8 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				5A9D97E3148716C100BBF8D8 /* 3.png */,
+				5A9D97D014870B3100BBF8D8 /* 2.png */,
+				5A9D97CE14870B1400BBF8D8 /* 1.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +142,9 @@
 /* Begin PBXProject section */
 		5A9D97A914870A9B00BBF8D8 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 5A9D97AC14870A9B00BBF8D8 /* Build configuration list for PBXProject "ShelfReader" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -138,6 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A9D97C114870A9B00BBF8D8 /* InfoPlist.strings in Resources */,
+				5A9D97CF14870B1400BBF8D8 /* 1.png in Resources */,
+				5A9D97D114870B3100BBF8D8 /* 2.png in Resources */,
+				5A9D97E4148716C100BBF8D8 /* 3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +183,8 @@
 			files = (
 				5A9D97C314870A9B00BBF8D8 /* main.m in Sources */,
 				5A9D97C714870A9B00BBF8D8 /* ShelfReaderAppDelegate.m in Sources */,
+				5A9D97DA14870E3A00BBF8D8 /* PopoverController.m in Sources */,
+				5A9D97E114870EC400BBF8D8 /* ReadViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +288,7 @@
 				5A9D97CC14870A9B00BBF8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

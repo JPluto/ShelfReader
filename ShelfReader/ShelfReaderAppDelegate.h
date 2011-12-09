@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ReadViewController.h"
 
 @interface ShelfReaderAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) ReadViewController *rootViewController;
 
 @end

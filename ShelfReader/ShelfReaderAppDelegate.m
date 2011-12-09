@@ -11,11 +11,19 @@
 @implementation ShelfReaderAppDelegate
 
 @synthesize window = _window;
+@synthesize rootViewController = _rootViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    _rootViewController = [[ReadViewController alloc] init];
+    
+    UINavigationController *rootNaviController = [[UINavigationController alloc] initWithRootViewController:_rootViewController];
+    
+    [self.window addSubview:rootNaviController.view];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
